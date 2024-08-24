@@ -1,0 +1,15 @@
+{
+  "enable": true,
+  "loadlist": [
+    {
+      "name": "LittleSkin",
+      "type": "CustomSkinAPI",
+      "root": "https://littleskin.cn/csl/",
+      "userAgent": "CustomSkinLoader/ltsk-manual-edited"
+    },
+    {
+      "name": "Mojang",
+      "type": "MojangAPI"
+    }
+  ]
+}
