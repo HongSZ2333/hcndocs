@@ -68,7 +68,7 @@ export default defineConfig({
       'label': '在此页面上'
     },
     editLink: {
-      pattern: 'https://github.com/HongSZ2333/hcndocs',
+      pattern: 'https://github.com/HongSZ2333/hcndocs/edit/main/docs/:path',
       text: '帮助我们完善这个页面'
     },
     search: {
@@ -77,7 +77,7 @@ export default defineConfig({
         appId: "8GVX0ZBWG5",
         // "This is the public API key which can be safely used in your frontend code." - Algolia Dashboard
         apiKey: "cdcbecb7692da969deaecbe7e6297924",
-        indexName: "littleskin",
+        indexName: "HCN",
         locales: {
           root: {
             placeholder: '搜索文档',
@@ -147,6 +147,26 @@ export default defineConfig({
                 { text: 'Carpet', link: '/function/carpet' },
               ]
             },
+            {
+              text: '官方QQbot',
+              link: '/qqbot/',
+              items: [
+                { text: '功能介绍', link: '/qqbot/menu' },
+                {
+                  text: '功能使用说明',
+                  link: '/qqbot/function',
+                  items: [
+                    { text: '商店', link: '/qqbot/function/shop' },
+                    { text: '购买', link: '/qqbot/function/buy' },
+                    { text: '会员说明', link: '/qqbot/function/aboutvip' },
+                    { text: '使用密钥', link: '/qqbot/function/key'},
+                    { text: '赠送', link: '/qqbot/function/give'}
+                  ]
+                },
+                { text: '如何在自己群使用bot', link: '/qqbot/how-to-use' },
+              ]
+            },
+            
           ]
         },
         
