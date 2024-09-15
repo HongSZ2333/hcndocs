@@ -18,9 +18,18 @@ HCN 是一个以生电为主得服务器，在里面你可以尽情得发挥创�
 <NCard title="🧑‍🏫 服务器信息" link="/information/">
 来了解一下我们服务器吧！
 </NCard>
-<!-- <NCard title="🤔 遇到问题了？" link="/problems/">
-读读这个，你的问题说不定会迎刃而解。
-</NCard> -->
+<NCard title="😎 服务器功能" link="/function/">
+来了解一下我们服务器的功能吧！
+</NCard>
+<NCard title="🏙️ 小镇" link="/information/">
+来了解一下我们服务器官方小镇吧！
+</NCard>
+<NCard title="🟢 官方QQbot" link="/information/">
+来了解一下我们服务器官方QQ机器人吧！
+</NCard>
+
+> [!TIP] 提示
+> © 2022-2024 HCN - All Rights Reserved
 
 <!-- --- -->
 
