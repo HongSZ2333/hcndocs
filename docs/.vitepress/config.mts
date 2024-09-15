@@ -77,7 +77,7 @@ export default defineConfig({
         appId: "K0OKOBZL8N",
         // "This is the public API key which can be safely used in your frontend code." - Algolia Dashboard
         apiKey: "1943c9531a5bdf165205002ead00297e",
-        indexName: "HCN",
+        indexName: "My First Application",
         locales: {
           root: {
             placeholder: '搜索文档',
