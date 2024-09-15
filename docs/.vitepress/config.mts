@@ -148,6 +148,13 @@ export default defineConfig({
               ]
             },
             {
+              text: '小镇',
+              link: '/town/',
+              items: [
+                { text: '柠檬镇', link: '/town/LemonTown' },
+              ]
+            },
+            {
               text: '官方QQbot',
               link: '/qqbot/',
               items: [
