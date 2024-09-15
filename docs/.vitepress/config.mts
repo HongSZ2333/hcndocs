@@ -74,9 +74,9 @@ export default defineConfig({
     search: {
       provider: 'algolia',
       options: {
-        appId: "8GVX0ZBWG5",
+        appId: "K0OKOBZL8N",
         // "This is the public API key which can be safely used in your frontend code." - Algolia Dashboard
-        apiKey: "cdcbecb7692da969deaecbe7e6297924",
+        apiKey: "1943c9531a5bdf165205002ead00297e",
         indexName: "HCN",
         locales: {
           root: {
