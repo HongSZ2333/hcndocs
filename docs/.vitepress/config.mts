@@ -173,7 +173,10 @@ export default defineConfig({
                 { text: '如何在自己群使用bot', link: '/qqbot/how-to-use' },
               ]
             },
-            
+            {
+              text: '更新',
+              link: '/update/',
+            },
           ]
         },
         
