@@ -3,12 +3,12 @@ title: 关于我们
 head:
   - - meta
     - name: keywords
-      content: hcn
+      content: cjsidc
 ---
 
-# HCN <Badge type="tip" text="氢氰酸" />
+# 纯净水互联 <Badge type="tip" text="CJSIDC" />
 
-HCN 是一个以生电为主得服务器，在里面你可以尽情得发挥创造
+纯净水互联是一个高性价比服务商
 
 你可以在 [GitHub](https://github.com/HongSZ2333/hcndocs) 获取到 所有 Markdown 源文件。
 
@@ -17,20 +17,9 @@ HCN 是一个以生电为主得服务器，在里面你可以尽情得发挥创�
 # 目录
 
 <br />
-<NCard title="🧑‍🏫 服务器信息" link="/information/">
-来了解一下我们服务器吧！
-</NCard>
-<NCard title="😎 服务器功能" link="/function/">
-来了解一下我们服务器的功能吧！
-</NCard>
-<NCard title="🏙️ 小镇" link="/town/">
-来了解一下我们服务器官方小镇吧！
-</NCard>
-<NCard title="🟢 官方QQbot" link="/qqbot/">
-来了解一下我们服务器官方QQ机器人吧！
-</NCard>
-<NCard title="👀 近期更新" link="/update/">
-来了解一下我们服务器最近更新内容吧！
+<NCard title="🧑‍🏫 帮助文档" link="/help/">
+有问题？前往帮助
 </NCard>
 
-> [!TIP] © 2022-2024 HCN - All Rights Reserved
+
+> [!TIP] © 2024-2025 纯净水互联 - All Rights Reserved

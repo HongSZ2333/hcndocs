@@ -5,8 +5,8 @@ let GTAG_ID = 'G-TBCY5W7YVR';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'HCN 使用文档',
-  description: 'HCN 使用文档',
+  title: '纯净水互联 使用文档',
+  description: '纯净水互联 使用文档',
   head: [
     // ['link', { rel: 'icon', href: '/favicon.png' }],
     ['script', 
@@ -46,8 +46,8 @@ export default defineConfig({
     // logo: '/favicon.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '赞助支持', link: 'https://afdian.com/a/hongsz' },
-      { text: '加入我们', link: 'https://qm.qq.com/cgi-bin/qm/qr?k=XC8n-tl27s-NH-3ocgusQnGi1hSApyzi&jump_from=webapi&authKey=Dh8XFFdJx+o6gdPgBSMoqXekDRKXWrHJIGWjL7CbNy39UjqV+zBuumQdmaQv54fV' }
+      { text: '官网', link: 'https://idc.cjsyun.cn' },
+      { text: '加入我们', link: 'https://qm.qq.com/q/sV1A1leVl8' }
     ],
 
     docFooter: {
@@ -131,52 +131,12 @@ export default defineConfig({
           link: '/',
           items: [
             {
-              text: '服务器信息',
-              link: '/information/',
+              text: '帮助文档',
+              link: '/help/',
               items: [
-                { text: '生电服 | 服务器信息', link: '/information/server' },
-                { text: '申请白名单', link: '/information/whitelist' },
-                { text: '入服流程', link: '/information/join'}
+                { text: '服务器 购买|使用', link: '/help/server' },
               ]
-            },
-            {
-              text: '服务器功能',
-              link: '/function/',
-              items: [
-                { text: 'MCDReforged', link: '/function/mcdreforged' },
-                { text: 'Carpet', link: '/function/carpet' },
-              ]
-            },
-            {
-              text: '小镇',
-              link: '/town/',
-              items: [
-                { text: '柠檬镇', link: '/town/LemonTown' },
-              ]
-            },
-            {
-              text: '官方QQbot',
-              link: '/qqbot/',
-              items: [
-                { text: '功能介绍', link: '/qqbot/menu' },
-                {
-                  text: '功能使用说明',
-                  link: '/qqbot/function',
-                  items: [
-                    { text: '商店', link: '/qqbot/function/shop' },
-                    { text: '购买', link: '/qqbot/function/buy' },
-                    { text: '会员说明', link: '/qqbot/function/aboutvip' },
-                    { text: '使用密钥', link: '/qqbot/function/key'},
-                    { text: '赠送', link: '/qqbot/function/give'}
-                  ]
-                },
-                { text: '如何在自己群使用bot', link: '/qqbot/how-to-use' },
-              ]
-            },
-            {
-              text: '更新',
-              link: '/update/',
-            },
+            }
           ]
         },
         
